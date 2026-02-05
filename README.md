@@ -57,6 +57,26 @@ excluir-tarefa.php
 
 ---
 
+## 🛠 Código do MySql
+
+USE lista_tarefas;
+CREATE TABLE tarefas (
+    id INT NOT NULL AUTO_INCREMENT,
+    
+    nome VARCHAR(100) NOT NULL,
+    
+    custo DECIMAL(10,2) NOT NULL CHECK (custo >= 0),
+    
+    data_limite DATE NOT NULL,
+    
+    ordem INT NOT NULL,
+    
+    PRIMARY KEY (id),
+    UNIQUE (nome),
+    UNIQUE (ordem)
+);
+
+
 ## 🧭 Como Utilizar
 
 - Utilize o botão **Incluir Tarefa** para cadastrar uma nova tarefa.
