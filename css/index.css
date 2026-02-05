@@ -1,0 +1,187 @@
+/* =======================
+   Layout Geral
+======================= */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #1f1f1f;
+    margin: 0;
+    padding: 0;
+    color: #EBC181;
+}
+
+.container-admin-banner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 80px 0 20px;
+}
+
+.logo-admin {
+    width: 400px;
+}
+
+h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container-admin-banner h1 {
+    margin-top: 40px;
+    font-size: 30px;
+    color: #EBC181;
+}
+
+/* =======================
+   Destaque tarefa cara
+======================= */
+.tarefa-cara {
+    background-color: #ffeb3b;
+    font-weight: bold;
+}
+
+.tarefa-cara td {
+    color: #000;
+}
+
+/* =======================
+   Tabela
+======================= */
+.container-table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #333B1E;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid #EBC181;
+    border-bottom: 1px solid #EBC181;
+}
+
+table th {
+    background-color: #EBC181;
+    color: #333B1E;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+}
+
+table td {
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 10px;
+}
+
+table tr {
+    border-bottom: 1px solid #EBC181;
+}
+
+/* =======================
+   Lista / Cards (se usar)
+======================= */
+.container-lista-produtos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-lista {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #EBC181;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.container-lista h3 {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* =======================
+   Botões (BASE)
+======================= */
+table tbody tr td a,
+.botao-cadastrar,
+.botao-excluir,
+.botao-editar,
+.botao-editar-modal {
+    padding: 8px 15px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 5px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+table tbody tr td a:hover,
+.botao-cadastrar:hover,
+.botao-excluir:hover,
+.botao-editar:hover,
+.botao-editar-modal:hover {
+    filter: saturate(150%);
+}
+
+/* =======================
+   Botões específicos
+======================= */
+
+/* Cadastrar */
+.botao-cadastrar {
+    background: #EBC181;
+    color: #333B1E;
+    font-size: 20px;
+    padding: 12px 15px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+/* Editar (link antigo) */
+.botao-editar {
+    background: #9B8357;
+}
+
+/* Editar (modal) */
+.botao-editar-modal {
+    background: #2ecc71;
+}
+
+/* Excluir */
+.botao-excluir {
+    background: crimson;
+}
+
+/* =======================
+   Rodapé da tabela
+======================= */
+table tfoot td {
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px;
+    color: #EBC181;
+}

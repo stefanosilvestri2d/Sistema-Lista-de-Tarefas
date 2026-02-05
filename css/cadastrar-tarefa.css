@@ -1,0 +1,97 @@
+
+.container_form {
+    width: 700px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    background: #1f1f1f; 
+    border-radius: 10px;
+    padding: 2em;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.container_form h1 {
+    font-size: 30px;
+    color: #EBC181; 
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+.form_grupo {
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+
+.form_label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+}
+
+
+.form_input {
+    font-size: 18px;
+    padding: 8px 12px;
+    border-radius: 10px;
+    border: 1px solid #EBC181;
+    background-color: #333B1E;
+    color: #fff;
+    width: 100%;
+    outline: none;
+    transition: all 0.3s;
+}
+
+.form_input:focus {
+    border-color: #9B8357;
+    box-shadow: 0 0 5px rgba(235,193,129,0.5);
+}
+
+
+.submit {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.submit_btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #9B8357; 
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: all 0.7s;
+}
+
+.submit_btn:hover {
+    filter: saturate(150%);
+}
+
+
+.botao-voltar {
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+    color: #EBC181;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 8px 12px;
+    border: 1px solid #EBC181;
+    transition: all 0.7s;
+}
+
+.botao-voltar:hover {
+    filter: saturate(150%);
+}
