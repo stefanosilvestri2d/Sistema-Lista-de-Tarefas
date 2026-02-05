@@ -12,6 +12,8 @@ Sistema web desenvolvido em PHP para gerenciamento de tarefas, permitindo cadast
   - Movimentação por setas (subir e descer)
   - Arrastar e soltar (drag and drop)
 - Cálculo automático do custo total das tarefas
+- Destaque visual de tarefas com alto custo:
+  - Tarefas com custo maior ou igual a R$ 1.000,00 são exibidas com o fundo amarelo
 
 ---
 
