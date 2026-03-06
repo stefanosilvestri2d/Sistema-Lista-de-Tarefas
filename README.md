@@ -74,7 +74,6 @@ CREATE TABLE tarefas (
     ordem INT NOT NULL,
     
     PRIMARY KEY (id),
-    UNIQUE (nome),
     UNIQUE (ordem)
 );
 
